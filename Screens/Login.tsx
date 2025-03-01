@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import hideIcon from './Assets/hide.png';
 import eyeIcon from './Assets/eye.png';
-import {API, URL} from './APIConstants';
+import {API, URL} from '../APIConstants';
 import { useNavigation } from '@react-navigation/native';
 
 const {width, height} = Dimensions.get('window');
